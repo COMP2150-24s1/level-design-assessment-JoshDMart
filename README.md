@@ -79,27 +79,35 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 
 You should restructure the headings below to match the order they appear in your level.
 
-### 2.1. Acid
+### 2.1. Acid, Checkpoints, and Passthrough Platforms
+During the first section, the player is immediately met with three mechanics: the acid, checkpoints, and passthrough platforms. The design is simple, but necessary so that the player understands these mechanics which form the rest of the level and are the most important.
 
-### 2.2. Checkpoints
+![core1](DocImages/core1.PNG)
 
-### 2.3. Chompers
+### 2.2. Weapon Pickup (Staff) and Chompers
 
-### 2.4. Health Pickups
+Also in the first section, the player gains access to the staff and is able to fend for themselves against the chompers. Gaining access to the staff early on is important due to it being one of the main factors of interactivity within the level. 
 
-### 2.5. Keys
+### 2.3. Spikes
 
-### 2.6. Moving Platforms
+Spikes are introduced in section 1 with similar intention to the acid, to show the player the types of hazards they will see throughout the level.
 
-### 2.7. Passthrough Platforms
+### 2.4. Keys
 
-### 2.8. Spikes
+At the end of the first section, the player finds one of the three keys needed to get out. 
+Each section has a key at the end and acts as the sections immediate reward.
 
-### 2.9. Spitters
+### 2.5. Health Pickup
 
-### 2.10. Weapon Pickup (Gun)
+At the starting area, everytime the player unlocks a piece of equipment, they gain access to the infirmaries which each hold 3 health pickups. The pickups are given to the player gradually so as to not make the first section too easy and too reward the player for unlocking the tools.
 
-### 2.11. Weapon Pickup (Staff)
+### 2.5. Weapon Pickup (Gun)
+
+At the start of section 2, the player gains access to the gun which is another core mechanic during section 2 and 3.
+
+### 2.6. Moving Platforms and Spitters
+
+During section 2, moving platforms and spitters are introduced inconjuction with each other as a way to encourage the player to use the gun as platforms will move away from the spitter which will shoot at you from range, encouraging the player to use range back at the spitter.
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
@@ -125,6 +133,24 @@ No additional words are necessary for this section (any words should only be wit
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+
+Iterative design helped improve the level by allowing ideas to be more organised to create a greater final level design. Through the creation of level design diagrams of all 3 sections, all my ideas were able to be visualised and thus created in Unity. As I began creating these designs in Unity, I realised that the design of the level did not suit the tiles I wanted to use (the dirt tiles) and looked too artificial with the completely flat walls and floors, thus made a big decision to slightly mould the ground and walls of the whole level to try make it more natural and give that cave aesthetic rather than an artificial tunnel.
+
+Before:
+![iterative1](DocImages/iterative1.PNG)
+
+After:
+![iterative2](DocImages/iterative2.PNG)
+
+During the design process, specifically when I was making the molecule diagram, I also realised that the sections would have to connect somehow and thus was the creation of the main starting area where all the sections would join up to make a cohesive experience. I also realised during playtesting that health was easily lost during these sections, therefore I added rooms with health which I named the "infirmaries" to assist more moderately-skilled players who are prone to lose health. 
+
+![iterative3](DocImages/iterative3.PNG)
+
+During the playtesting process, I also realised that some parts of the level were either too boring/easy, so I made some changes in order to up the difficulty. For example, during section 2 where the player tries to solve how to cross the acid lake, the whole process is relatively easy and boring, and thus I added some spikes, spitters, and a rock wall to try and impede the player.
+
+![iterative4](DocImages/iterative4.PNG)
+
+One thing I could probably improve through further iterative design is the final section. Although it is meant to be the hardest in difficulty, which it does accomplish, it also feels like the quickest section out of the 3. Further testing could be done in order to extend the duration of the section, filling it with more and harder puzzles, as well as having a proper combat section which the whole level lacks a bit in. Most of the physical engagement of the level comes from platforming but adding a part specifically for combat would enhance the experience even further.
 
 ## Generative AI Use Acknowledgement
 
